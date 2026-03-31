@@ -1,0 +1,27 @@
+{
+  "cycle": 5,
+  "timestamp": "2026-02-26 01:10:58",
+  "start_errors": 811,
+  "end_errors": 679,
+  "fixes_attempted": 188,
+  "fixes_applied": 188,
+  "fixes_reverted": 0,
+  "build_passed": true,
+  "duration_secs": 327.1,
+  "error_breakdown": {
+    "unused_var": 329,
+    "implicit_any": 110,
+    "type_error": 131,
+    "missing_import": 169,
+    "null_check": 48,
+    "misc": 24
+  },
+  "top_remaining": [
+    "src/App.tsx:72:10: TS6133 'bannerCustomization' is declared but its value is",
+    "src/components/admin/MasterDatabaseView.tsx:50:10: TS6133 'expandedRows' is declared but its value is never ",
+    "src/components/admin/MasterDatabaseView.tsx:50:24: TS6133 'setExpandedRows' is declared but its value is nev",
+    "src/components/AnalyticsDashboard.tsx:13:3: TS6133 'BarChart3' is declared but its value is never rea",
+    "src/components/AnalyticsDashboard.tsx:19:3: TS6133 'Globe' is declared but its value is never read."
+  ],
+  "trend": "\u2192"
+}

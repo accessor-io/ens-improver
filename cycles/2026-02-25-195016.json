@@ -1,0 +1,27 @@
+{
+  "cycle": 1,
+  "timestamp": "2026-02-25 19:48:18",
+  "start_errors": 923,
+  "end_errors": 923,
+  "fixes_attempted": 0,
+  "fixes_applied": 0,
+  "fixes_reverted": 0,
+  "build_passed": true,
+  "duration_secs": 118.2,
+  "error_breakdown": {
+    "unused_var": 391,
+    "implicit_any": 115,
+    "type_error": 163,
+    "misc": 31,
+    "missing_import": 170,
+    "null_check": 53
+  },
+  "top_remaining": [
+    "src/App.tsx:12:29: TS6133 'Globe' is declared but its value is never read.",
+    "src/App.tsx:21:1: TS6133 'RotatingENSNames' is declared but its value is ne",
+    "src/App.tsx:66:10: TS6133 'bannerCustomization' is declared but its value is",
+    "src/App.tsx:69:10: TS6133 'scrollY' is declared but its value is never read.",
+    "src/components/admin/MasterDatabaseView.tsx:50:10: TS6133 'expandedRows' is declared but its value is never "
+  ],
+  "trend": "\u2192"
+}
